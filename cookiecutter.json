@@ -5,15 +5,7 @@
     "author_name": "my_name",
     "author_email": "my_email@somewhere.com",
     "github_user": "my_gihub_username",
-    "license": [
-        "CC-A-SA",
-        "CC-A",
-        "MIT",
-        "BSD",
-        "OSHD",
-        "TAPR",
-        "CERN-OHL-P"
-    ],
+	"department": "Department Name",
     "_copy_without_render": [
         ".github/workflows/*.yml",
         ".github/*.md"
