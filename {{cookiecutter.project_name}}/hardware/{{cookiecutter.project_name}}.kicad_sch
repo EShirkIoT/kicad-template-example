@@ -5,13 +5,12 @@
   (paper "A4")
 
   (title_block
-    (title "{{cookiecutter.project_description}}")
+    (title "{{cookiecutter.project_name}}")
     (date "{% now 'utc', '%Y-%m-%d' %}")
     (rev "A")
     (company "IoT.nxt")
     (comment 1 "Author: {{cookiecutter.author_name}}")
-    (comment 2 "Project Github: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_repo_name}}")
-    (comment 3 "Department: {{cookiecutter.department}}")
+    (comment 2 "Department: {{cookiecutter.department}}")
   )
 
   (lib_symbols

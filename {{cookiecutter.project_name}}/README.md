@@ -4,19 +4,28 @@
 
 ## Project Features
 
-* {{ cookiecutter.project_name}}
-* A starter KiCad project structured similar to <https://hackaday.com/2017/05/18/kicad-best-practises-library-management/>
-* A starter documentation structure based on the <https://hutscape.com/pine/> by Sayanee Basu <https://github.com/sayanee> and her great youtube video around hardware documentation <https://youtu.be/uPitFGqjyPU>.
+Outline the key features and functionalities of {{cookiecutter.project_name}}. Describe what sets it apart and makes it unique. Highlight the main capabilities and benefits that users can expect from the project.
 
-## Resources
+- Feature 1: Describe the first feature and its significance.
+- Feature 2: Explain another important feature and how it enhances the project.
+- Feature 3: Highlight an additional feature and its impact on the project.
 
-Below are some handy resource links.
+## Resources and Links
 
-* [KiCad](https://www.kicad.org/) is a Cross Platform and Open Source Electronics Design Automation suite.
-* [cookiecutter-kicad](https://github.com/madeinoz67/cookiecutter-kicad) a cookiecutter template for KiCad Projects.
+List the resources, documentation, tutorials, or any other useful links that have been utilized during the development of {{cookiecutter.project_name}}. These resources can include:
+
+- Official documentation or user guides
+- Online forums or communities
+- Reference materials or datasheets for components
+- Tutorial videos or blog posts
+- GitHub repository or other version control system
+
+Feel free to include specific URLs or references to the resources and links that were instrumental in the development process of {{cookiecutter.project_name}}.
+
+## Other Information
+
+Include any additional information that might be useful for understanding or working with {{cookiecutter.project_name}}. This could include details about system requirements, dependencies, licensing information, or any specific instructions or considerations that users should be aware of.
 
 ## Authors
 
-* **{{ cookiecutter.author_name }}** - *Initial Work* - [github](https://github.com/{{cookiecutter.github_user}})
-
-See also the list of [contributors](https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_repo_name}}/AUTHORS.rst) who participated in this project.
+* **{{ cookiecutter.author_name }}** - *Initial Work*

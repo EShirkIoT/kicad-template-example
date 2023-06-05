@@ -13,28 +13,16 @@ theme:
 # Page Tree
 nav:
   - Home: index.md
-  - Checklists:
-      - checklists/sample.md
-      - checklists/sample2.md
   - Hardware:
       - Overview: hardware/overview.md
       - Mechanical: hardware/mechanical.md
-      - License: license.md
-  - Firmware:
-      - Overview: firmware/overview.md
-      - License: license.md
-  - Bill of Materials:
-      - bom.md
   - Design:
       - design/design.md
-  - Authors: authors.md
   - Change Log: changelog.md
-  - References: references.md
 
 # Repository
-repo_name: "{{cookiecutter.github_user}}/{{cookiecutter.project_repo_name}}"
-repo_url: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_repo_name}}
-edit_uri: ""
+repo_name: "{{cookiecutter.repo_name}}"
+repo_url: https://dev.azure.com/iotnxt/IoTnxt/_git/{{cookiecutter.repo_name}}
 
 # plugins
 plugins:
@@ -74,13 +62,12 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 # Copyright
-copyright: Copyright &copy; 2021 {{cookiecutter.author_name}}
+copyright: Copyright &copy; IoT.nxt
 
 # footer customisation
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_repo_name}}
+      link: https://dev.azure.com/iotnxt/IoTnxt/_git/{{cookiecutter.repo_name}}
 # Google Analytics
 #google_analytics:
 #  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
