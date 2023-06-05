@@ -21,8 +21,7 @@ nav:
   - Change Log: changelog.md
 
 # Repository
-repo_name: "{{cookiecutter.repo-name}}"
-repo_url: https://dev.azure.com/iotnxt/IoTnxt/_git/{{cookiecutter.repo-name}}
+repo_url: {{cookiecutter.project_repo_name}}
 
 # plugins
 plugins:
@@ -67,7 +66,7 @@ copyright: Copyright &copy; IoT.nxt
 # footer customisation
 extra:
   social:
-      link: https://dev.azure.com/iotnxt/IoTnxt/_git/{{cookiecutter.repo-name}}
+      link: {{cookiecutter.project_repo_name}}
 # Google Analytics
 #google_analytics:
 #  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
